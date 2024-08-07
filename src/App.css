@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rakkas&display=swap');
+*{
+  margin: 0px;
+  padding:0px;
+}
+html{
+  scroll-behavior: smooth;
+}
+#root {
+ display:flex;
+ flex-direction:column;
+ font-family:"poppins",sans-serif;
+ background-color:whitesmoke;
+ text-align:center;
+}
+.header{
+  display:flex;
+  justify-content:space-between;
+  margin:10px;
+}
+.header h1{
+  line-height:120%;
+}
+.header button{
+  height:fit-content;
+  padding:15px;
+  border:none;
+  border-radius:5px;
+  background-color:blue;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.253);
+  color:white;
+  cursor:pointer;
+  font-weight:bold;
+}
+#register{
+  display:grid;
+  place-items:center;
+  background-image:url("https://getwallpapers.com/wallpaper/full/c/a/f/408574.jpg");
+  padding:100px 0px 100px 0px;
+}
+#Register{
+  display:grid;
+  place-items:center;
+  background-image: url("https://getwallpapers.com/wallpaper/full/c/a/f/408674.jpg");
+  padding:100px 0px 100px 0px;
+}
+.reg-content{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:1rem;
+  font-size:x-large;
+  text-align:center;
+  width:40%;
+  color:white;
+}
+.submission{
+  display:inline-flex;
+  gap:1rem;
+}
+.submission button{
+  height:fit-content;
+  padding:20px;
+  border:none;
+  border-radius:5px;
+  background-color:blue;
+  color:white;
+  cursor:pointer;
+  font-weight:bold;
+  box-shadow: 0 3px 3px 3px rgba(0,0,0,0.253);
+}
+.header button:hover{
+  background-color: rgb(5, 5, 190);
+}
+.submission button:hover{
+  background-color: rgb(5, 5, 190);
+}
+.submission input{
+  padding:10px;
+  width:350px;
+  border-radius:10px;
+  border-color: rgba(0,0,0,0.3);
+  color:whitesmoke;
+  font-size:large;
+}
+.All-features{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  margin-top:100px;
+  margin-bottom:100px;
+  gap:2rem;
+}
+.features{
+  display:flex;
+  gap:1rem;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  width:300px;
+}
+.bottom{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  gap:1rem;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.about{
+  display:inline-flex;
+  gap:1rem;
+}
+.bottom p{
+  opacity:0.7;
+}
+.bottom img{
+  height:30px;
+  cursor:pointer;
+}
+.bottom img:hover{
+  height:31px;
+}
+.social-media{
+  display:flex;
+  gap:2rem;
+}
+.features img{
+  height:80px;
+}
+.submitted p{
+  color:white;
+  font-size:medium;
+}
+.submitted a{
+  color:white;
+  font-size:medium;
+}
+.all-features{
+  display:grid;
+  margin-bottom:30px;
+}
+.cardstyle{
+  background-color:white;
+  display:flex;
+  flex-wrap:wrap;
+}
+.cardstyle img{
+  width:50%;
+  height:500px;
+  object-fit:cover;
+}
+.des-content{
+  background-color:white;
+  width:38%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:6%;
+  font-size:large;
+}
+@media screen and (min-width:125px) and (max-width:425px){
+  .reg-content{
+    font-size:large;
+    width:80%;
+  }
+.submission input{
+  width:100%;
+}
+.cardstyle img{
+  width:100%;
+}
+.des-content{
+  width:100%;
+  font-size:medium;
+  padding:40px;
+}
+}
